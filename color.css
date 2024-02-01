@@ -105,9 +105,9 @@ body{
     border-radius: 0 .6em 0 .6em;
 }
 .expmt-h{
-    font-weight: 2.5em;
+    font-size: 1.7em;
     top: 40%;
-    left: 8%;
+    left: 15%;
     color: white;
     filter: opacity(.6);
     position: fixed;
