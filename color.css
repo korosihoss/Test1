@@ -104,3 +104,26 @@ body{
     font-weight: bold;
     border-radius: 0 .6em 0 .6em;
 }
+.expmt-h{
+    font-weight: 2.5em;
+    top: 40%;
+    left: 8%;
+    color: white;
+    filter: opacity(.6);
+    position: fixed;
+    text-shadow: 1px -1px 2px black;
+    animation: rotate 23s infinite; 
+    font-weight: normal;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
