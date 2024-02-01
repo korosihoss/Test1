@@ -17,7 +17,7 @@ let colorId = document.getElementById("colorId");
 
 //Checks if body is true to change background onload
 
-colorId.innerHTML = "Color Name|| "+ colorAtRandom;
+colorId.innerHTML = "Color Name this is weird|| "+ colorAtRandom;
 
 function initializeRandom(){
     let loadingIconCon = document.getElementById("loading-icon-con");
