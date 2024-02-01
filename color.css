@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: none;
+}
+#head{
+    margin-top: 0em; 
+    font-size: 2.3em;
+    user-select: none;
+    color: white;
+}
+#main-container{
+    width: 90%;
+}
+
+#modeBtn{
+    position: fixed;
+    bottom: 21%;
+}
+
+#frmId{
+    position: fixed;
+    bottom: 7%;
+    right : 0%;
+    left: 0%;
+    padding: 0 1.2em 1.2em 1.2em;
+    border-radius: .6em;
+}
+#input-field{
+    padding: .8em;
+    height: .6em;
+    border: none;
+    border-radius: 0 .6em 0 .6em;
+    border: 1px solid black;
+}
+#input-field:focus{
+    outline: none;
+}
+#generateBtn{
+    background: white;
+    border: 1px solid black;
+    border-radius: 0 .6em 0 .6em;
+    font-weight: bold;
+    font-size:.9em;
+    color: black;
+    padding: .2em .6em .2em .6em;
+    margin-left: .7em;
+}
+#randomBtn{
+    position: fixed;
+    bottom: 20%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 0 .6em 0 .6em;
+    font-weight: bold;
+    font-size:.9em;
+    color: black;
+    padding: .2em .6em .2em .6em;
+    right: 9.5%;
+}
+#colorIdContainer{
+    width: 75%;
+    height: 30px;
+    background: white;
+    position: fixed;
+    border-radius: 0 .6em 0 .6em;
+    top: 4%;
+    left: 5%;
+    border: 1px solid black;
+}
+#colorId{
+    text-align: left;
+    margin:6px 1px 2px 7px;
+    font-weight: bold;
+}
+
+#loading-icon-con{
+    display: none;
+    background: #000000c9;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index:999; 
+}
+#loading-icon{
+    width: 70px;
+    margin: 60% auto;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-duration: 1.3s;
+    animation-timing-function: 1;
+}
+@keyframes rotate{
+    100%{
+        transform: rotateZ(300deg);
+    }
+}
+#current-color-btn{
+    position: fixed;
+    bottom: 20%;
+    left: 7%;
+    border : 1px solid black ;
+    background: whitesmoke;
+    font-weight: bold;
+    border-radius: 0 .6em 0 .6em;
+}
