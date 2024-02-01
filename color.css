@@ -90,11 +90,6 @@ body{
     animation-duration: 1.3s;
     animation-timing-function: 1;
 }
-@keyframes rotate{
-    100%{
-        transform: rotateZ(300deg);
-    }
-}
 #current-color-btn{
     position: fixed;
     bottom: 20%;
