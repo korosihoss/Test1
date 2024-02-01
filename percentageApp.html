@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page title</title>
+    <style>
+        body{
+            background-color: teal;
+            background-attachment:fixed;
+            background-size:cover;
+            background-repeat: no-repeat;
+            margin: 20ch 2ch 2ch 2ch; text-align: center;
+            color: white;
+        }
+        label{
+            font-size:.7em;
+        }
+        label input{
+            height: 25px; border: white;
+        }
+        button{
+            color: white;
+            padding:10px;
+            background: none;
+            border:1px solid white;
+            border-radius: 9px;
+        }
+        #result-con{
+            font-family: serif; 
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Percent Calculator</h2>
+    <label> Percent</br>
+     <input type="text" id="value">
+    </label>
+    <br>
+    <label> Total Number</br>
+     <input type="text" id="total-value">
+    </label>
+    <br>
+    <br>
+    <button type="submit"id="button"><b>Calculate</b></button>
+    <button id="reset"><b>Reset</b></button>
+   </div>
+   <div id="result-con">
+       <p id="output"></p>
+   </div>
+   
+   <script src="./percentageApp.js"></script> 
+</body>
+</html>
